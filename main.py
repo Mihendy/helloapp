@@ -1,14 +1,16 @@
-def print_hello():
+def greet_everyone():
     print('Hello everyone')
 
 
-def hello_white():
+def greet_white():
     print('Hello White')
 
 
-def hello_black():
+def greet_black():
     print('Hello Black')
 
 
 if __name__ == '__main__':
-    print_hello()
+    greet_everyone()
+    greet_black()
+    greet_white()
